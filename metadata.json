@@ -1,0 +1,6 @@
+{
+  "name": "Dream Trip Planner",
+  "description": "An AI-powered travel application that generates customized, day-wise itineraries, local food suggestions, packing lists, and budget breakdowns using Gemini.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
