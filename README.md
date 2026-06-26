@@ -1,20 +1,33 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Dream Trip Planner
 
-# Run and deploy your AI Studio app
+An AI-powered travel planning application that generates personalized itineraries based on a user's destination, budget, trip duration, travel style, and interests. The app provides day-wise travel plans, budget allocation, local attractions, food recommendations, travel tips, and packing suggestions to make trip planning simple and efficient.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/fbd0ab59-4451-4729-b2c5-c70d04f58786
+*  Destination-based trip planning
+*  Budget-aware itinerary generation
+*  Day-wise travel schedule
+*  Travel style customization (Budget, Balanced, Luxury)
+*  Interest-based recommendations (History, Nature, Food, Adventure, Spiritual, Culture)
+*  Local food suggestions
+*  Travel tips & packing recommendations
+*  Copy and regenerate itinerary
 
-## Run Locally
+## Tech Stack
 
-**Prerequisites:**  Node.js
+* HTML5
+* CSS3
+* JavaScript (ES6)
+* Gemini API
 
+## Future Enhancements
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+* Weather forecast integration
+* Google Maps integration
+* Hotel and transport recommendations
+* PDF itinerary export
+* User authentication & saved trips
+
+---
+
+Developed as part of the **Google 5-Day AI Agents: Intensive Vibe Coding Course** to explore AI-powered application development using Gemini.
